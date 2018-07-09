@@ -137,48 +137,66 @@ Current Initiative:
                 <td>Zręczność:</td>
                 <td><input type="number" name="attr_zrecznosc" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_zrecznosc}|@{attr_zrecznosc}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_zrecznosc}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_zrecznosc}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_zrecznosc}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_zrecznosc}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_zrecznosc}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_zrecznosc}+?{Modyfikator}]]cs20cs1]]
+                                = *Zrecznosc @{attr_zrecznosc}*
+                                  *Trudność ?{Modyfikator}*
+                                    }} '
                              name='roll_zrecznosc'></button></td>
             </tr>
             <tr>
                 <td>Percepcja:</td>
                 <td><input type="number" name="attr_percepcja" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_percepcja}|@{attr_percepcja}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_percepcja}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_percepcja}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_percepcja}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_percepcja}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_percepcja}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_percepcja}+?{Modyfikator}]]cs20cs1]]
+                                = *Percepcja @{attr_percepcja}*
+                                  *Trudność ?{Modyfikator}*
+                                    }} '
                              name='roll_percepcja'></button></td>
             </tr>
             <tr>
                 <td>Charakter:</td>
                 <td><input type="number" name="attr_charakter" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_charakter}|@{attr_charakter}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_charakter}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_charakter}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_charakter}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_charakter}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_charakter}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_charakter}+?{Modyfikator}]]cs20cs1]]
+                                = *Charakter @{attr_charakter}*
+                                  *Trudność ?{Modyfikator}*
+                                    }}'
                              name='roll_charakter'></button></td>
             </tr>
             <tr>
                 <td>Spryt:</td>
                 <td><input type="number" name="attr_spryt" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_spryt}|@{attr_spryt}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_spryt}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_spryt}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_spryt}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_spryt}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_spryt}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_spryt}+?{Modyfikator}]]cs20cs1]]
+                                = *Spryt @{attr_spryt}*
+                                  *Trudność ?{Modyfikator}*
+                                    }}'
                              name='roll_spryt'></button></td>
             </tr>
             <tr>
                 <td>Budowa:</td>
                 <td><input type="number" name="attr_budowa" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_budowa}|@{attr_budowa}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_budowa}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_budowa}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_budowa}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_budowa}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_budowa}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_budowa}+?{Modyfikator}]]cs20cs1]]
+                                = *Budowa @{attr_budowa}*
+                                  *Trudność ?{Modyfikator}*
+                                    }}'
                              name='roll_budowa'></button></td>
             </tr>
             <tr>
                 <td>Szczęście:</td>
                 <td><input type="number" name="attr_szczescie" value="9"></td>
                 <td> <button type='roll'
-                             value='&{template:default}{{name=**@{name}**}}
-                                    {{Sukcesy=[[{3d20cs<1cf>20}<?{Modifier+@{attr_szczescie}|@{attr_szczescie}}]]}}'
+                             value='&{template:default}{{name=**@{name}**}} {{Rzuty
+                                [[ d20cf>[[@{attr_szczescie}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_szczescie}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_szczescie}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_szczescie}+?{Modyfikator}]]cs20cs1]][[ d20cf>[[@{attr_szczescie}+?{Modyfikator|Przeciętny(0), 0|Łatwy(+2), 2|Przeciętny(0), 0|Problematyczny(-2), -2|Trudny(-5), -5| Bardzo Trudny(-8), -8| Cholernie Trudny (-11), -11|Fart(-15), -15}]]cf1cf20cs<[[@{attr_szczescie}+?{Modyfikator}]]cs20cs1]]
+                                = *Szczęście @{attr_szczescie}*
+                                  *Trudność ?{Modyfikator}*
+                                    }}'
                              name='roll_budowa'></button></td>
             </tr>
             </tbody>
@@ -247,6 +265,549 @@ Current Initiative:
                             name='roll_bron_maszynowa'></button>
                 </td>
             </tr>
+            <tr>
+                <td>
+                    <b>Broń Dystansowa</b>
+                </td>
+                <td align="right">Łuk</td>
+                <td><input type="number" name="attr_luk" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_luk'></button>
+                </td>
+
+                <td align="right">Kusza</td>
+                <td><input type="number" name="attr_kusza" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_kusza'></button>
+                </td>
+
+                <td align="right">Proca</td>
+                <td><input type="number" name="attr_proca" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_proca'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Prowadzenie Pojazdów</b>
+                </td>
+                <td align="right">Samochód</td>
+                <td><input type="number" name="attr_samochod" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_samochod'></button>
+                </td>
+
+                <td align="right">Ciężarówka</td>
+                <td><input type="number" name="attr_ciezarowka" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ciezarowka'></button>
+                </td>
+
+                <td align="right">Motocykl</td>
+                <td><input type="number" name="attr_motocykl" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_motocykl'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Zdolności Manualne</b>
+                </td>
+                <td align="right">Kradzież Kieszonkowa</td>
+                <td><input type="number" name="attr_kradziez_kieszonkowa" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_kradziez_kieszonkowa'></button>
+                </td>
+
+                <td align="right">Zwinne Dłonie</td>
+                <td><input type="number" name="attr_zwinne_dlonie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_zwinne_dlonie'></button>
+                </td>
+
+                <td align="right">Otwieranie Zamków</td>
+                <td><input type="number" name="attr_otwieranie_zamkow" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_orwieranie_zamkow'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Orientacja w Terenie</b>
+                </td>
+                <td align="right">Wyczucie Kierunku</td>
+                <td><input type="number" name="attr_wyczucie_kierunku" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_wyczucie_kierunku'></button>
+                </td>
+
+                <td align="right">Tropienie</td>
+                <td><input type="number" name="attr_tropienie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_tropienie'></button>
+                </td>
+
+                <td align="right">Przygotowanie Pułapki</td>
+                <td><input type="number" name="attr_przygotowanie_pulapki" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_przygotowanie_pulapki'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Spostrzegawczość</b>
+                </td>
+                <td align="right">Nasłuchiwanie</td>
+                <td><input type="number" name="attr_nasluchiwanie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_wyczucie_kierunku'></button>
+                </td>
+
+                <td align="right">Wypatrywanie</td>
+                <td><input type="number" name="attr_wypatrywanie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_tropienie'></button>
+                </td>
+
+                <td align="right">Czujność</td>
+                <td><input type="number" name="attr_czujnosc" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_czujnosc'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Kamuflaż</b>
+                </td>
+                <td align="right">Skradanie się</td>
+                <td><input type="number" name="attr_skradanie_sie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_skradanie_sie'></button>
+                </td>
+
+                <td align="right">Ukrywanie się</td>
+                <td><input type="number" name="attr_ukrywanie_sie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ukrywanie_sie'></button>
+                </td>
+
+                <td align="right">Maskowanie</td>
+                <td><input type="number" name="attr_maskowanie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_maskowanie'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Przetrwanie</b>
+                </td>
+                <td align="right">Łowiectwo</td>
+                <td><input type="number" name="attr_lowiectwo" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_lowiectwo'></button>
+                </td>
+
+                <td align="right">Zdobywanie Wody</td>
+                <td><input type="number" name="attr_zdobywanie_wody" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_zdobywanie_wody'></button>
+                </td>
+
+                <td align="right">Znajomość Terenu</td>
+                <td><input type="number" name="attr_znajomosc_terenu" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_znajomosc_terenu'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Negocjacje</b>
+                </td>
+                <td align="right">Perswazja</td>
+                <td><input type="number" name="attr_perswazja" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_perswazja'></button>
+                </td>
+
+                <td align="right">Zastraszanie</td>
+                <td><input type="number" name="attr_zastraszanie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_zastraszanie'></button>
+                </td>
+
+                <td align="right">Zdolności Przywódcze</td>
+                <td><input type="number" name="attr_zdolnosci_przywodcze" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_zdolnosci_przywodcze'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Empatia</b>
+                </td>
+                <td align="right">Postrzeganie Emocji</td>
+                <td><input type="number" name="attr_postrzeganie_emocji" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_postrzeganie_emocji'></button>
+                </td>
+
+                <td align="right">Blef</td>
+                <td><input type="number" name="attr_blef" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_blef'></button>
+                </td>
+
+                <td align="right">Opieka nad zwierzętami</td>
+                <td><input type="number" name="attr_opieka_nad_zwierzetami" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_opieka_nad_zwierzetami'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Siła Woli</b>
+                </td>
+                <td align="right">Odporność na Ból</td>
+                <td><input type="number" name="attr_odpornosc_na_bol" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_odpornosc_na_bol'></button>
+                </td>
+
+                <td align="right">Niezłomność</td>
+                <td><input type="number" name="attr_niezlomnosc" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_niezlomnosc'></button>
+                </td>
+
+                <td align="right">Morale</td>
+                <td><input type="number" name="attr_morale" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_morale'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Medycyna</b>
+                </td>
+                <td align="right">Leczenie ran</td>
+                <td><input type="number" name="attr_leczenie_ran" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_leczenie_ran'></button>
+                </td>
+
+                <td align="right">Leczenie Chorób</td>
+                <td><input type="number" name="attr_leczenie_chorob" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_leczenie_chorob'></button>
+                </td>
+
+                <td align="right">Pierwsza Pomoc</td>
+                <td><input type="number" name="attr_pierwsza_pomoc" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_pierwsza_pomoc'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Technika</b>
+                </td>
+                <td align="right">Mechanika</td>
+                <td><input type="number" name="attr_mechanika" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_mechanika'></button>
+                </td>
+
+                <td align="right">Elektronika</td>
+                <td><input type="number" name="attr_elektronika" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_elektronika'></button>
+                </td>
+
+                <td align="right">Komputery</td>
+                <td><input type="number" name="attr_komputery" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_komputery'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Wiedza Ogólna</b>
+                </td>
+                <td align="right"><input type="text" name="attr_ogolna1" placeholder="Wiedza"></td>
+                <td><input type="number" name="attr_ogolna1" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ogolna1'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_ogolna1" placeholder="Wiedza"></td>
+                <td><input type="number" name="attr_ogolna2" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ogolna2'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_ogolna1" placeholder="Wiedza"></td>
+                <td><input type="number" name="attr_ogolna3" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ogolna3'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Sprzęt</b>
+                </td>
+                <td align="right">Maszyny Ciężkie</td>
+                <td><input type="number" name="attr_maszyny_ciezkie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_maszyny_ciezkie'></button>
+                </td>
+
+                <td align="right">Wozy Bojowe</td>
+                <td><input type="number" name="attr_wozy_bojowe" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_wozy_bojowe'></button>
+                </td>
+
+                <td align="right">Kutry</td>
+                <td><input type="number" name="attr_kutry" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_kutry'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Pirotechnika</b>
+                </td>
+                <td align="right">Rusznikarstwo</td>
+                <td><input type="number" name="attr_rusznikarstwo" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_rusznikarstwo'></button>
+                </td>
+
+                <td align="right">Wyrzutnie</td>
+                <td><input type="number" name="attr_wyrzutnie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_wyrzutnie'></button>
+                </td>
+
+                <td align="right">Materiały Wybuchowe</td>
+                <td><input type="number" name="attr_materialy_wybuchowe" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_materialy_wybuchowe'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Sprawność</b>
+                </td>
+                <td align="right">Pływanie</td>
+                <td><input type="number" name="attr_plywanie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_plywanie'></button>
+                </td>
+
+                <td align="right">Wspinaczka</td>
+                <td><input type="number" name="attr_wspinaczka" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_wspinaczka'></button>
+                </td>
+
+                <td align="right">Kondycja</td>
+                <td><input type="number" name="attr_kondycja" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_kondycja'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Jeździectwo</b>
+                </td>
+                <td align="right">Jazda Konna</td>
+                <td><input type="number" name="attr_jazda_konna" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_jazda_konna'></button>
+                </td>
+
+                <td align="right">Powożenie</td>
+                <td><input type="number" name="attr_powozenie" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_powozenie'></button>
+                </td>
+
+                <td align="right">Ujeżdżanie</td>
+                <td><input type="number" name="attr_kondycja" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_ujezdzanie'></button>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <b>Inne</b>
+                </td>
+                <td align="right"><input type="text" name="attr_inne1_nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne1" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne1'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_inne2_nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne2" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne2'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_inne3_nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne3" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne3'></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <b>Inne</b>
+                </td>
+                <td align="right"><input type="text" name="attr_inne4_nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne4" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne4'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_inne5)nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne5" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne5'></button>
+                </td>
+
+                <td align="right"><input type="text" name="attr_inne6_nazwa" placeholder="Inne"></td>
+                <td><input type="number" name="attr_inne6" value="0"></td>
+                <td>
+                    <button type='roll'
+                            value=''
+                            name='roll_inne6'></button>
+                </td>
+            </tr>
+
             </tbody>
         </table>
     </div>
