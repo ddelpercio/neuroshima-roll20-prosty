@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76070c94-19f2-461b-b299-514c65840473" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/Neuroshima.html" afterPath="$PROJECT_DIR$/Neuroshima.html" />
-      <change beforePath="$PROJECT_DIR$/mocktest/Roll20TestMock.html" afterPath="$PROJECT_DIR$/mocktest/Roll20TestMock.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="Neuroshima.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Neuroshima.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11333">
-              <caret line="817" column="0" lean-forward="true" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,7 +145,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12340000" />
+    <option name="totallyTimeSpent" value="12345000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
@@ -292,8 +290,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Neuroshima.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11333">
-          <caret line="817" column="0" lean-forward="true" selection-start-line="817" selection-start-column="0" selection-end-line="817" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
